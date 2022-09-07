@@ -3,6 +3,7 @@
   --clr-light: #f4f4f4;
   --clr-dark: black;
   --clr-warning: rgb(147, 43, 43);
+  --clr-blue: rgb(26, 131, 201);
 }
 
 /* Custom fonts*/
@@ -252,8 +253,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 20px;
   margin-top: 60px;
   letter-spacing: 0.8px;
-  display: flex;
+  display: inline-block;
   align-items: center;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  padding: 5px;
 }
 .banner button svg {
   font-size: 25px;
@@ -267,7 +270,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner img {
   animation: updown 3s linear infinite;
 }
-@keyframes updown {
+/* @keyframes updown {
     0% {
         transform: translateY(-20px);
     }
@@ -277,9 +280,48 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     100% {
         transform: translateY(-20px);
     }
-}
+} */
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+}
+
+/*Skills CSS*/
+
+.skill {
+  padding: 0 0 50px 0;
+  position: relative;
+  margin-top: 10rem;
+}
+
+.skill-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: -60px;
+}
+
+.skill-container-experiece {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.skill-experience-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 2rem;
+  margin-top: 4rem;
+}
+
+.skill-experience-skills {
+  display: flex;
+  gap: 1rem;
+}
+
+.skill-experience-icons {
+  margin-top: 6px;
+  color: var(--clr-blue)
 }
 
 .App {
