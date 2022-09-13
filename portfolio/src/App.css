@@ -25,6 +25,16 @@
   font-weight: 400;
 }
 
+@font-face {
+  font-family: Josefin Sans;
+  src: url('./assets/fonts/JosefinSans-Regular.ttf');
+}
+
+@font-face {
+  font-family: Josefin Sans;
+  src: url('./assets/fonts/JosefinSans-Bold.ttf');
+}
+
 /* Default CSS settings*/
 * {
   margin: 0;
@@ -102,8 +112,8 @@ span.navbar-text {
     margin-left: 14px;
 }
 .social-icon a {
-    width: 42px;
-    height: 42px;
+    width: 50px;
+    height: 50px;
     background: rgba(217, 217, 217, 0.1);
     display: inline-flex;
     border-radius: 50%;
@@ -145,6 +155,7 @@ span.navbar-text {
 	background-color: transparent;
 	transition: 0.3s ease-in-out;
 }
+
 .navbar-text button span {
   z-index: 1;
 }
@@ -229,7 +240,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 40px;
   display: inline-block;
 }
 .banner h1 {
@@ -257,6 +268,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   align-items: center;
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
   padding: 5px;
+  margin-top: 40px;
+
 }
 .banner button svg {
   font-size: 25px;
@@ -330,6 +343,19 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   color: var(--clr-blue)
 }
 
+.skill h3 {
+  margin-top: 40px;
+  font-size: 22px;
+  font-weight: 700;
+  display: flex;
+}
+
+.skill p {
+  font-weight: 200;
+  display: flex;
+  text-align: left;
+}
+
 /* Projects CSS*/
 .project {
   padding: 80px 0;
@@ -388,9 +414,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-link.active::before {
     width: 100% !important;
 }
-.project .nav.nav-pills .nav-link.active {
-    border: 1px solid rgba(255, 255, 255, 1);
-}
 .nav-link#projects-tabs-tab-first {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 55px 0px 0px 55px;
@@ -403,59 +426,64 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-radius: 0 55px 55px 0;
 }
-.proj-imgbx {
-  position: relative;
-  border-radius: 30px;
-  overflow: hidden;
-  margin-bottom: 24px;
-}
-.proj-imgbx::before {
-  content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
-  opacity: 0.85;
-  position: absolute;
-  width: 100%;
-  height: 0;
-  transition: 0.4s ease-in-out;
-}
-.proj-imgbx:hover::before {
-  height: 100%;
-}
-.proj-txtx {
-  position: absolute;
+
+/* .project-bx {
+  background: #636363;
+  border-radius: 64px;
   text-align: center;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transition: 0.5s ease-in-out;
-  opacity: 0;
-  width: 100%;
-}
-.proj-imgbx:hover .proj-txtx {
-  top: 50%;
-  opacity: 1;
-}
-.proj-txtx h4 {
-  font-size: 30px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  line-height: 1.1em;
-}
-.proj-txtx span {
-  font-style: italic;
-  font-weight: 400;
-  font-size: 15px;
-  letter-spacing: 0.8px;
-}
-.background-image-right {
-  top: 20%;
-  position: absolute;
-  bottom: 0;
-  width: 35%;
-  right: 0;
-  z-index: -4;
+  padding: 60px 50px;
+  margin-top: 15px;
 }
 
+.project-header {
+  position: absolute;
+  width: 227px;
+  height: 28px;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.project-title {
+  position: absolute;
+  width: 227px;
+  height: 63px;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 29px;
+  color: #000000;
+} */
+
+.project-listbox {
+  margin-top: -38em;
+  margin-bottom: -37em;
+}
+
+.project button {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  margin-top: 5px;
+  letter-spacing: 0.8px;
+  display: inline-block;
+  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  padding: 5px;
+  margin-left: 2em;
+}
+.project button svg {
+  font-size: 25px;
+  margin-left: 10px;
+  transition: 0.3s ease-in-out;
+  line-height: 1;
+}
+.project button:hover svg {
+  margin-left: 25px;
+}
 
 .App {
   text-align: center;
