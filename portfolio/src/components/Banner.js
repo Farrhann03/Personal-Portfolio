@@ -46,9 +46,9 @@ export const Banner = () => {
                 <Row classname="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline"> Welcome to my Portfolio</span>
-                        <h1>{`Hi I'm webdecoded `}<span className="wrap">{text}</span></h1>
-                        <p>Test paragraph for portfolio website about me</p>
-                        <button onClick={() => console.log('connect')}> Let's connect <ArrowRightCircle size={25}/></button>
+                        <h1>{`Hello, I'm Farhan, a software developer. `}<span className="wrap">{text}</span></h1>
+                        <p>I love creating and tech. I'm a lifelong learner and I like taking photos.</p>
+                        <button onClick={() => console.log('connect')}> View my CV <ArrowRightCircle size={25}/></button>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={ProfileImage} alt="Profile Img" className="profile-image" />
