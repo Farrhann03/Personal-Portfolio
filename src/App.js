@@ -13,7 +13,6 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
-      <div>BaseURL: {config.baseURL}</div>
     </div>
   );
 }
