@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Personal-Portfolio/static/css/main.748ed41a.css",
-    "main.js": "/Personal-Portfolio/static/js/main.720f7da2.js",
+    "main.js": "/Personal-Portfolio/static/js/main.f05a6697.js",
     "static/js/787.1ed0c42c.chunk.js": "/Personal-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/covid checker thumbnail.svg": "/Personal-Portfolio/static/media/covid checker thumbnail.73b615a9202fa4c27349bc3319d3a407.svg",
     "static/media/supper thumbnail.svg": "/Personal-Portfolio/static/media/supper thumbnail.9a38ac6a655ad9f53433e1eea940ae4f.svg",
@@ -17,11 +17,11 @@
     "index.html": "/Personal-Portfolio/index.html",
     "static/media/nav-icon1.svg": "/Personal-Portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "main.748ed41a.css.map": "/Personal-Portfolio/static/css/main.748ed41a.css.map",
-    "main.720f7da2.js.map": "/Personal-Portfolio/static/js/main.720f7da2.js.map",
+    "main.f05a6697.js.map": "/Personal-Portfolio/static/js/main.f05a6697.js.map",
     "787.1ed0c42c.chunk.js.map": "/Personal-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.748ed41a.css",
-    "static/js/main.720f7da2.js"
+    "static/js/main.f05a6697.js"
   ]
 }
