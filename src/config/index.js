@@ -1,4 +1,4 @@
-const env = proces.env.REACT_APP_ENV;
+const env = process.env.REACT_APP_ENV;
 
 let config = {
     baseURL: "https://farrhann03.github.io/Personal-Portfolio/"
