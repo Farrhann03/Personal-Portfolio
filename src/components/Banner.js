@@ -13,7 +13,7 @@ export const Banner = () => {
         <section className="banner" id="aboutme">
             <Container>
                 <Row classname="align-items-center">
-                    <Col xs={12} md={6} xl={7}>
+                    <Col>
                         <span className="tagline"> Welcome to my Portfolio</span>
                         <h1>{`Hello, I'm Farhan, a software developer. `}</h1>
                         <p>I love tech and creating. I'm a lifelong learner and I like taking photos.</p>

@@ -283,6 +283,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner img {
   animation: updown 3s linear infinite;
 }
+
+.profile-image {
+  margin: 2em;
+}
 /* @keyframes updown {
     0% {
         transform: translateY(-20px);
@@ -330,12 +334,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 2rem;
   margin-top: 4rem;
-  padding: 2rem;
 }
 
 .skill-experience-skills {
   display: flex;
   gap: 1rem;
+  padding: 1em;
 }
 
 .skill-experience-icons {
@@ -354,6 +358,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 200;
   display: flex;
   text-align: left;
+}
+
+@media (max-width: 700px) {
+  .skill-experience-content {
+    display: block;
+  }
 }
 
 /* Projects CSS*/
@@ -463,6 +473,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: -38em;
   margin-bottom: -37em;
 }
+
 
 .project button {
   color: #fff;
